@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Archives on Docs</title>
-    <link>./archives/</link>
-    <description>Recent content in Archives on Docs</description>
+    <title>Archives on Clear content marker</title>
+    <link>http://www.terrychan.org/clear-content-marker/archives/</link>
+    <description>Recent content in Archives on Clear content marker</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>youremail@domain.com (Some Person)</managingEditor>
     <webMaster>youremail@domain.com (Some Person)</webMaster>
     
-	<atom:link href="./archives/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.terrychan.org/clear-content-marker/archives/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
