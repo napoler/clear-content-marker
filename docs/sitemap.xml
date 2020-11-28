@@ -3,17 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>./post/2020-11-14-%E5%93%88%E5%93%88%E8%BF%99%E4%B8%AA%E6%98%AF%E7%89%9B%E9%80%BC%E7%9A%84%E8%B0%83%E8%AF%90/</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
+    <loc>./post/2020-11-27-%E5%86%85%E5%AE%B9%E6%B8%85%E7%90%86%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2020-11-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>./demo/2017-03-20-photoswipe-gallery-sample/</loc>
-    <lastmod>2017-03-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>./post/2017-03-20-photoswipe-gallery-sample/</loc>
     <lastmod>2017-03-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -69,7 +64,7 @@
   
   <url>
     <loc>./</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -111,12 +106,6 @@
   </url>
   
   <url>
-    <loc>./tags/haha/</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>./tags/markdown/</loc>
     <lastmod>2015-02-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -125,12 +114,6 @@
   <url>
     <loc>./tags/math/</loc>
     <lastmod>2017-03-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>./tags/niubi/</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -147,7 +130,7 @@
   
   <url>
     <loc>./post/</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -159,6 +142,12 @@
   
   <url>
     <loc>./page/list/</loc>
+  </url>
+  
+  <url>
+    <loc>./tags/%E6%96%87%E6%A1%A3/</loc>
+    <lastmod>2020-11-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

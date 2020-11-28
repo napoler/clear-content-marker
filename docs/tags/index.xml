@@ -40,15 +40,6 @@
     </item>
     
     <item>
-      <title>Haha</title>
-      <link>./tags/haha/</link>
-      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>./tags/haha/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Markdown</title>
       <link>./tags/markdown/</link>
       <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
@@ -67,20 +58,20 @@
     </item>
     
     <item>
-      <title>Niubi</title>
-      <link>./tags/niubi/</link>
-      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>./tags/niubi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Photoswipe</title>
       <link>./tags/photoswipe/</link>
       <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
       <guid>./tags/photoswipe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>文档</title>
+      <link>./tags/%E6%96%87%E6%A1%A3/</link>
+      <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>./tags/%E6%96%87%E6%A1%A3/</guid>
       <description></description>
     </item>
     
