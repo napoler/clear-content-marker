@@ -6,19 +6,23 @@ client = pymongo.MongoClient("localhost", 27017)
 DB = client.gpt2Write
 
 # 以写的方式打开文件，如果文件不存在，就会自动创建
-f= open("data/pet/title.txt", 'w')
+f= open("data/title.txt", 'w')
+n=0
 for i, it in  enumerate(DB.content_pet.find({})):
 
-    print("-"*20)
+    
     # kw=it['entity']+it['value']
     # if len(it['data'])>1:
-    print(it["title"])
-    f.writelines(it['title'])
-    f.writelines("\n")
-    f.writelines("\n")
-    if i%50==0 and i !=0:
-        name=f"data/pet/title{i}.txt"
-        f= open(name, 'w')
+    if "|" in it["title"] or "-" in it["title"] or "_" in it["title"] or "|" in it["title"] or "~" in it["title"]:
+        n=n+1
+        print("-"*20)
+        print(it["title"])
+        f.writelines(it['title'])
+        f.writelines("\n")
+        f.writelines("\n")
+        if n%20==0 and n !=0:
+            name=f"data/title{n}.txt"
+            f= open(name, 'w')
 f.close()
 
 # for i,resp in enumerate( scanResp):
