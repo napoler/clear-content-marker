@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Clear content marker</title>
@@ -21,7 +21,9 @@
       <description>Hello, World! 这是一个内容清理标记数据共享计划
 https://github.com/napoler/clear-content-marker
 关于 这是一个清理标题的开放数据集
-标注工具 https://github.com/t-web/ChineseAnnotator</description>
+标注工具 https://github.com/t-web/ChineseAnnotator
+标记数据生成工具
+https://github.com/napoler/Annotator_tools</description>
     </item>
     
   </channel>
