@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>photoswipe on Clear content marker</title>
+    <title>Photoswipe on Clear content marker</title>
     <link>http://www.terrychan.org/clear-content-marker/tags/photoswipe/</link>
-    <description>Recent content in photoswipe on Clear content marker</description>
+    <description>Recent content in Photoswipe on Clear content marker</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>youremail@domain.com (Some Person)</managingEditor>
     <webMaster>youremail@domain.com (Some Person)</webMaster>
@@ -19,6 +19,7 @@
       <author>youremail@domain.com (Some Person)</author>
       <guid>http://www.terrychan.org/clear-content-marker/demo/2017-03-20-photoswipe-gallery-sample/</guid>
       <description>&lt;p&gt;Beautiful Hugo adds a few custom shortcodes created by &lt;a href=&#34;https://www.liwen.id.au/heg/&#34;&gt;Li-Wen Yip&lt;/a&gt; and &lt;a href=&#34;https://github.com/GjjvdBurg/HugoPhotoSwipe&#34;&gt;Gert-Jan van den Berg&lt;/a&gt; for making galleries with &lt;a href=&#34;http://photoswipe.com&#34;&gt;PhotoSwipe&lt;/a&gt; .&lt;/p&gt;
+
 &lt;p&gt;
 
 &lt;div class=&#34;gallery caption-position-bottom caption-effect-fade hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
@@ -121,7 +122,9 @@
     &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
