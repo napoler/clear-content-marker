@@ -4,7 +4,7 @@ import os
 import pymongo
 client = pymongo.MongoClient("localhost", 27017)
 DB = client.gpt2Write
-
+import random
 
 
 items={}
@@ -36,10 +36,13 @@ for i in range(dirnum):
         pass
     
 
+ 
+
 for n,item in enumerate( items.keys()):
     
     if n%10==0:
-        fn=n%dirnum
+        # fn=n%dirnum
+        fn=random.randint(0,99)
         name=f"data/{fn}/title{n}.txt"
         f= open(name, 'w')
     n=n+1
