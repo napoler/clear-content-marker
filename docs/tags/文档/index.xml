@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>文档 on Clear content marker</title>
@@ -7,10 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>youremail@domain.com (Some Person)</managingEditor>
     <webMaster>youremail@domain.com (Some Person)</webMaster>
-    <lastBuildDate>Fri, 27 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.terrychan.org/clear-content-marker/tags/%E6%96%87%E6%A1%A3/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>提取标题训练</title>
+      <link>http://www.terrychan.org/clear-content-marker/post/2020-12-01-%E6%8F%90%E5%8F%96%E6%A0%87%E9%A2%98%E8%AE%AD%E7%BB%83/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>http://www.terrychan.org/clear-content-marker/post/2020-12-01-%E6%8F%90%E5%8F%96%E6%A0%87%E9%A2%98%E8%AE%AD%E7%BB%83/</guid>
+      <description>提取标题训练 这是一个内容清理标记数据共享计划
+https://github.com/napoler/clear-content-marker
+关于 生成后的标记数据
+https://www.kaggle.com/terrychanorg/clear-title
+一个训练过程示例
+https://www.kaggle.com/terrychanorg/bert-title</description>
+    </item>
     
     <item>
       <title>内容清理工具</title>
@@ -23,7 +37,9 @@ https://github.com/napoler/clear-content-marker
 关于 这是一个清理标题的开放数据集
 标注工具 https://github.com/t-web/ChineseAnnotator
 标记数据生成工具
-https://github.com/napoler/Annotator_tools</description>
+https://github.com/napoler/Annotator_tools
+生成后的标记数据
+https://www.kaggle.com/terrychanorg/clear-title</description>
     </item>
     
   </channel>

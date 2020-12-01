@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>提取标题训练</title>
+  <meta property="og:title" content="提取标题训练" />
+  <meta name="twitter:title" content="提取标题训练" />
+  <meta name="description" content="提取标题训练 这是一个内容清理标记数据共享计划
+https://github.com/napoler/clear-content-marker
+关于 生成后的标记数据
+https://www.kaggle.com/terrychanorg/clear-title
+一个训练过程示例
+https://www.kaggle.com/terrychanorg/bert-title">
+  <meta property="og:description" content="提取标题训练 这是一个内容清理标记数据共享计划
+https://github.com/napoler/clear-content-marker
+关于 生成后的标记数据
+https://www.kaggle.com/terrychanorg/clear-title
+一个训练过程示例
+https://www.kaggle.com/terrychanorg/bert-title">
+  <meta name="twitter:description" content="提取标题训练 这是一个内容清理标记数据共享计划
+https://github.com/napoler/clear-content-marker
+关于 生成后的标记数据
+https://www.kaggle.com/terrychanorg/clear-title
+一个训练过程示例
+https://www.kaggle.com/terrychanorg/bert-title">
+  <meta name="author" content="Some Person"/>
+  <link href='http://www.terrychan.org/clear-content-marker/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="http://www.terrychan.org/clear-content-marker/img/avatar-icon.png" />
+  <meta name="twitter:image" content="http://www.terrychan.org/clear-content-marker/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@username" />
+  <meta name="twitter:creator" content="@username" />
+  <meta property="og:url" content="http://www.terrychan.org/post/2020-12-01-%E6%8F%90%E5%8F%96%E6%A0%87%E9%A2%98%E8%AE%AD%E7%BB%83/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Clear content marker" />
+
+  <meta name="generator" content="Hugo 0.68.3" />
+  <link rel="canonical" href="http://www.terrychan.org/post/2020-12-01-%E6%8F%90%E5%8F%96%E6%A0%87%E9%A2%98%E8%AE%AD%E7%BB%83/" />
+  <link rel="alternate" href="http://www.terrychan.org/clear-content-marker/index.xml" type="application/rss+xml" title="Clear content marker">
+  
+  <link rel="stylesheet" href="http://www.terrychan.org/clear-content-marker/css/main.css" />
+  
+  
+  
+
+</head>
+
+  <body>
+    <div class="ui fixed inverted menu">
+  <div class="ui container">
+ 
+
+    
+    <a class="header item" title="Clear content marker" href="http://www.terrychan.org/clear-content-marker/">
+      <img class="avatar-img" src="http://www.terrychan.org/clear-content-marker/img/avatar-icon.png" alt="Clear content marker" />
+    </a>
+    
+   
+
+
+    <a href="#" class="item">Home</a>
+
+
+    
+    
+
+    <div class="ui simple dropdown item">
+      Samples <i class="dropdown icon"></i>
+      <div class="menu">
+ 
+        
+        <a href="http://www.terrychan.org/clear-content-marker/./post/2017-03-07-bigimg-sample" class="item">Big Image Sample</a>
+      
+        <a href="http://www.terrychan.org/clear-content-marker/./post/2017-03-05-math-sample" class="item">Math Sample</a>
+      
+        <a href="http://www.terrychan.org/clear-content-marker/./post/2016-03-08-code-sample" class="item">Code Sample</a>
+      
+ 
+      </div>
+    </div>
+
+    
+  
+    
+    <a   class="item" title="Tags" href="http://www.terrychan.org/clear-content-marker/tags">Tags</a>
+  
+    
+  
+    
+    <a   class="item" title="About" href="http://www.terrychan.org/clear-content-marker/./page/about/">About</a>
+  
+    
+  
+    
+    <a   class="item" title="list" href="http://www.terrychan.org/clear-content-marker/./page/list/">list</a>
+  
+    
+  
+ 
+   
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+    
+  
+  
+  
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      
+      <div class="container ui">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              <h1>提取标题训练</h1>
+                
+                
+                  <span class="post-meta">
+  
+  
+</span>
+
+
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="ui container">
+ 
+  <div class="ui banner test ad" data-text="栏"></div>
+      <article role="main" class="blog-post ui     container">
+        <h1 id="提取标题训练">提取标题训练</h1>
+<p>这是一个内容清理标记数据共享计划</p>
+<p><a href="https://github.com/napoler/clear-content-marker">https://github.com/napoler/clear-content-marker</a></p>
+<h1 id="关于">关于</h1>
+<p>生成后的标记数据</p>
+<p><a href="https://www.kaggle.com/terrychanorg/clear-title">https://www.kaggle.com/terrychanorg/clear-title</a></p>
+<p>一个训练过程示例</p>
+<p><a href="https://www.kaggle.com/terrychanorg/bert-title">https://www.kaggle.com/terrychanorg/bert-title</a></p>
+
+      </article>
+
+
+
+
+
+
+      <div class="ui pagination menu">
+        
+        <a  class="item"  href="http://www.terrychan.org/clear-content-marker/post/2020-11-27-%E5%86%85%E5%AE%B9%E6%B8%85%E7%90%86%E5%B7%A5%E5%85%B7/" data-toggle="tooltip" data-placement="top" title="内容清理工具">
+          &larr; </a>
+          
+          
+      </div>
+
+
+
+
+ 
+
+      
+        
+      
+
+ 
+ 
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:youremail@domain.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/username" title="Facebook">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.plus.google.com/&#43;username" title="Google&#43;">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-google-plus fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://gitlab.com/username" title="GitLab">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-gitlab fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/username" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/username" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://reddit.com/u/username" title="Reddit">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-reddit-alien fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/username" title="LinkedIn">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.xing.com/profile/username" title="Xing">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-xing fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://stackoverflow.com/users/XXXXXXX/username" title="StackOverflow">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.snapchat.com/add/username" title="Snapchat">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-snapchat-ghost fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/username" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/username" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://soundcloud.com/username" title="SoundCloud">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-soundcloud fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://open.spotify.com/user/username" title="Spotify">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-spotify fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://username.bandcamp.com/" title="Bandcamp">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-bandcamp fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://itch.io/profile/username" title="itch.io">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-gamepad fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://keybase.io/username" title="Keybase">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-keybase fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="http://www.terrychan.org/clear-content-marker/index.xml" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          Some Person
+          &nbsp;&bull;&nbsp;
+          2020
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="http://www.terrychan.org/clear-content-marker/">Clear content marker</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js" type="b504c714c9aa80ef97b56a74-text/javascript"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="http://www.terrychan.org/clear-content-marker/js/main.js"></script>
+<script src="http://www.terrychan.org/clear-content-marker/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> renderMathInElement(document.body); </script>
+
+
+
+
+
+  </body>
+</html>
+
